@@ -1,5 +1,4 @@
-#include "stdio.h"
-
+#include "sort.h"
 /**
  *swap - swap vars.
  *@x: first var.
@@ -14,8 +13,7 @@ void swap(int *x, int *y)
 	*y = tmp;
 }
 
-#include <stdlib.h>
-#include <stdio.h>
+
 
 /**
  * print_array - Prints an array of integers
